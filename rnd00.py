@@ -6,5 +6,5 @@ except:
 import requests
 bit = platform.architecture()[0]
 if bit == '64bit':
-    from rnd import main
+    from rnd1 import main
     main()
